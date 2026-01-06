@@ -1,0 +1,29 @@
+{
+  "name": "grupo8-onboarding-back-end",
+  "version": "1.0.0",
+  "description": "Backend do Sistema de onboarding",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cncursofullstack-fbavanti/grupo8-onboarding-back-end.git"
+  },
+  "keywords": [],
+  "author": "Grupo 08",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cncursofullstack-fbavanti/grupo8-onboarding-back-end/issues"
+  },
+  "homepage": "https://github.com/cncursofullstack-fbavanti/grupo8-onboarding-back-end#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

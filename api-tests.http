@@ -1,0 +1,49 @@
+### Teste - API funcionando
+GET http://localhost:3000
+
+### Teste - Ler dados
+GET http://localhost:3000/test
+
+### Login - Gestor (Professor X)
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "xavier.charles@xmen.com",
+  "password": "icanreadyourmind"
+}
+
+### Login - Colaborador (Cyclops)
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "summers.scott@xmen.com",
+  "password": "lookatmyeyes"
+}
+
+### Login - Credenciais inválidas
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "teste@teste.com",
+  "password": "senhaerrada"
+}
+
+### Listar todos os usuários
+GET http://localhost:3000/api/users
+
+### Buscar usuário por ID
+GET http://localhost:3000/api/users/2
+
+### Criar novo usuário
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "Wolverine",
+  "email": "logan@xmen.com",
+  "password": "snikt123",
+  "role": "dev"
+}
