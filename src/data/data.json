@@ -52,6 +52,24 @@
       "type": "collaborator",
       "role": "dev",
       "avatar": ""
+    },
+    {
+      "id": 7,
+      "name": "Angel",
+      "email": "worthington.warren@xmen.com",
+      "password": "ibelieveicanfly",
+      "type": "collaborator",
+      "role": "qa",
+      "avatar": ""
+    },
+    {
+      "id": 8,
+      "name": "Wolverine",
+      "email": "logan@xmen.com",
+      "password": "snikt",
+      "type": "collaborator",
+      "role": "dev",
+      "avatar": ""
     }
   ],
   "templates": {
@@ -215,7 +233,7 @@
       "collaborator_id": 3,
       "template_task_id": 3,
       "title": "Revisar backlog atual",
-      "status": "completed"
+      "status": "pending"
     },
     {
       "id": 11,
@@ -347,47 +365,96 @@
       "id": 29,
       "collaborator_id": 7,
       "template_task_id": 1,
-      "title": "Configurar conta do Git e SSH keys",
+      "title": "Configurar ferramentas de teste (Selenium, Jest, etc)",
       "status": "pending"
     },
     {
       "id": 30,
       "collaborator_id": 7,
       "template_task_id": 2,
-      "title": "Instalar e configurar ambiente de desenvolvimento local",
+      "title": "Conhecer o fluxo de testes da aplicação",
       "status": "pending"
     },
     {
       "id": 31,
       "collaborator_id": 7,
       "template_task_id": 3,
-      "title": "Revisar documentação técnica do projeto",
+      "title": "Entender pipeline de CI/CD",
       "status": "pending"
     },
     {
       "id": 32,
       "collaborator_id": 7,
       "template_task_id": 4,
-      "title": "Conhecer padrões de código e boas práticas da equipe",
+      "title": "Revisar casos de teste existentes",
       "status": "pending"
     },
     {
       "id": 33,
       "collaborator_id": 7,
       "template_task_id": 5,
-      "title": "Configurar acesso aos repositórios",
+      "title": "Configurar ambiente de testes",
       "status": "pending"
     },
     {
       "id": 34,
       "collaborator_id": 7,
       "template_task_id": 6,
-      "title": "Fazer primeiro commit de teste",
+      "title": "Executar suite de testes completa",
       "status": "pending"
     },
     {
       "id": 35,
       "collaborator_id": 7,
+      "template_task_id": 7,
+      "title": "Participar da daily com o time",
+      "status": "pending"
+    },
+    {
+      "id": 36,
+      "collaborator_id": 8,
+      "template_task_id": 1,
+      "title": "Configurar conta do Git e SSH keys",
+      "status": "pending"
+    },
+    {
+      "id": 37,
+      "collaborator_id": 8,
+      "template_task_id": 2,
+      "title": "Instalar e configurar ambiente de desenvolvimento local",
+      "status": "pending"
+    },
+    {
+      "id": 38,
+      "collaborator_id": 8,
+      "template_task_id": 3,
+      "title": "Revisar documentação técnica do projeto",
+      "status": "pending"
+    },
+    {
+      "id": 39,
+      "collaborator_id": 8,
+      "template_task_id": 4,
+      "title": "Conhecer padrões de código e boas práticas da equipe",
+      "status": "pending"
+    },
+    {
+      "id": 40,
+      "collaborator_id": 8,
+      "template_task_id": 5,
+      "title": "Configurar acesso aos repositórios",
+      "status": "pending"
+    },
+    {
+      "id": 41,
+      "collaborator_id": 8,
+      "template_task_id": 6,
+      "title": "Fazer primeiro commit de teste",
+      "status": "pending"
+    },
+    {
+      "id": 42,
+      "collaborator_id": 8,
       "template_task_id": 7,
       "title": "Participar da daily com o time",
       "status": "pending"

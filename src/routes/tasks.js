@@ -1,7 +1,9 @@
 import express from 'express';
 import { readData, writeData } from '../utils/fileHandler.js';
+import { requireAuth } from '../middleware/auth.js';
 
 const router = express.Router();
+router.use(requireAuth);
 
 // GET /api/tasks - Lista todas as tarefas (ou filtra por collaborator_id)
 router.get('/', async (req, res) => {

@@ -1,7 +1,9 @@
 import express from 'express';
 import { readData, writeData } from '../utils/fileHandler.js';
+import { requireManager } from '../middleware/auth.js';
 
 const router = express.Router();
+router.use(requireManager);
 
 // GET /api/users - Lista todos os usuários
 router.get('/', async (req, res) => {
@@ -58,8 +60,8 @@ router.post('/', async (req, res) => {
       return res.status(400).json({ error: 'Email já cadastrado' });
     }
     
-    // Gera novo ID
-    const maxId = Math.max(...data.users.map(u => u.id));
+    // Gera novo ID do usuário
+    const maxId = data.users.length > 0 ? Math.max(...data.users.map(u => u.id)) : 0; // CORRIGIDO
     const newUserId = maxId + 1;
     
     // Cria novo usuário
@@ -75,7 +77,13 @@ router.post('/', async (req, res) => {
     
     // Cria tarefas do template
     const taskTemplate = data.templates[role];
-    const maxTaskId = Math.max(...data.tasks.map(t => t.id));
+    
+    if (!taskTemplate) {
+      return res.status(400).json({ error: 'Template não encontrado para o papel especificado' });
+    }
+    
+    // Gera novo ID das tarefas
+    const maxTaskId = data.tasks.length > 0 ? Math.max(...data.tasks.map(t => t.id)) : 0; // CORRIGIDO
     
     const newTasks = taskTemplate.map((template, index) => ({
       id: maxTaskId + index + 1,

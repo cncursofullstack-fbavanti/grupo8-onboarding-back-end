@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Professor X",
+      "email": "xavier.charles@xmen.com",
+      "password": "icanreadyourmind",
+      "type": "manager",
+      "avatar": "/src/assets/imgs/professor.png"
+    },
+    {
+      "id": 2,
+      "name": "Cyclops",
+      "email": "summers.scott@xmen.com",
+      "password": "lookatmyeyes",
+      "type": "collaborator",
+      "role": "dev",
+      "avatar": "/src/assets/imgs/cyclops.png"
+    },
+    {
+      "id": 3,
+      "name": "Phoenix",
+      "email": "grey.jean@xmen.com",
+      "password": "icanreadyourmindaswellprofessor",
+      "type": "collaborator",
+      "role": "po",
+      "avatar": "/src/assets/imgs/phoenix.png"
+    },
+    {
+      "id": 4,
+      "name": "Beast",
+      "email": "mccoy.hank@xmen.com",
+      "password": "minhasantquerupita",
+      "type": "collaborator",
+      "role": "dev",
+      "avatar": "/src/assets/imgs/beast.png"
+    },
+    {
+      "id": 5,
+      "name": "Iceman",
+      "email": "drake.robert@xmen.com",
+      "password": "chillout",
+      "type": "collaborator",
+      "role": "qa",
+      "avatar": "/src/assets/imgs/iceman.png"
+    },
+    {
+      "id": 6,
+      "name": "Storm",
+      "email": "ororo@xmen.com",
+      "password": "weather",
+      "type": "collaborator",
+      "role": "dev",
+      "avatar": ""
+    }
+  ],
+  "templates": {
+    "dev": [
+      { "id": 1, "title": "Configurar conta do Git e SSH keys" },
+      { "id": 2, "title": "Instalar e configurar ambiente de desenvolvimento local" },
+      { "id": 3, "title": "Revisar documentação técnica do projeto" },
+      { "id": 4, "title": "Conhecer padrões de código e boas práticas da equipe" },
+      { "id": 5, "title": "Configurar acesso aos repositórios" },
+      { "id": 6, "title": "Fazer primeiro commit de teste" },
+      { "id": 7, "title": "Participar da daily com o time" }
+    ],
+    "qa": [
+      { "id": 1, "title": "Configurar ferramentas de teste (Selenium, Jest, etc)" },
+      { "id": 2, "title": "Conhecer o fluxo de testes da aplicação" },
+      { "id": 3, "title": "Entender pipeline de CI/CD" },
+      { "id": 4, "title": "Revisar casos de teste existentes" },
+      { "id": 5, "title": "Configurar ambiente de testes" },
+      { "id": 6, "title": "Executar suite de testes completa" },
+      { "id": 7, "title": "Participar da daily com o time" }
+    ],
+    "po": [
+      { "id": 1, "title": "Conhecer roadmap do produto" },
+      { "id": 2, "title": "Alinhar expectativas com stakeholders" },
+      { "id": 3, "title": "Revisar backlog atual" },
+      { "id": 4, "title": "Entender métricas e KPIs do produto" },
+      { "id": 5, "title": "Conhecer o processo de discovery" },
+      { "id": 6, "title": "Participar de cerimônias ágeis (planning, review, retro)" },
+      { "id": 7, "title": "Fazer shadowing com PO anterior ou líder" }
+    ]
+  },
+  "tasks": [
+    { "id": 1, "collaborator_id": 2, "template_task_id": 1, "title": "Configurar conta do Git e SSH keys", "status": "completed" },
+    { "id": 2, "collaborator_id": 2, "template_task_id": 2, "title": "Instalar e configurar ambiente de desenvolvimento local", "status": "completed" },
+    { "id": 3, "collaborator_id": 2, "template_task_id": 3, "title": "Revisar documentação técnica do projeto", "status": "completed" },
+    { "id": 4, "collaborator_id": 2, "template_task_id": 4, "title": "Conhecer padrões de código e boas práticas da equipe", "status": "completed" },
+    { "id": 5, "collaborator_id": 2, "template_task_id": 5, "title": "Configurar acesso aos repositórios", "status": "completed" },
+    { "id": 6, "collaborator_id": 2, "template_task_id": 6, "title": "Fazer primeiro commit de teste", "status": "completed" },
+    { "id": 7, "collaborator_id": 2, "template_task_id": 7, "title": "Participar da daily com o time", "status": "completed" },
+    { "id": 8, "collaborator_id": 3, "template_task_id": 1, "title": "Conhecer roadmap do produto", "status": "completed" },
+    { "id": 9, "collaborator_id": 3, "template_task_id": 2, "title": "Alinhar expectativas com stakeholders", "status": "completed" },
+    { "id": 10, "collaborator_id": 3, "template_task_id": 3, "title": "Revisar backlog atual", "status": "pending" },
+    { "id": 11, "collaborator_id": 3, "template_task_id": 4, "title": "Entender métricas e KPIs do produto", "status": "completed" },
+    { "id": 12, "collaborator_id": 3, "template_task_id": 5, "title": "Conhecer o processo de discovery", "status": "pending" },
+    { "id": 13, "collaborator_id": 3, "template_task_id": 6, "title": "Participar de cerimônias ágeis (planning, review, retro)", "status": "pending" },
+    { "id": 14, "collaborator_id": 3, "template_task_id": 7, "title": "Fazer shadowing com PO anterior ou líder", "status": "pending" },
+    { "id": 15, "collaborator_id": 4, "template_task_id": 1, "title": "Configurar conta do Git e SSH keys", "status": "completed" },
+    { "id": 16, "collaborator_id": 4, "template_task_id": 2, "title": "Instalar e configurar ambiente de desenvolvimento local", "status": "pending" },
+    { "id": 17, "collaborator_id": 4, "template_task_id": 3, "title": "Revisar documentação técnica do projeto", "status": "completed" },
+    { "id": 18, "collaborator_id": 4, "template_task_id": 4, "title": "Conhecer padrões de código e boas práticas da equipe", "status": "completed" },
+    { "id": 19, "collaborator_id": 4, "template_task_id": 5, "title": "Configurar acesso aos repositórios", "status": "completed" },
+    { "id": 20, "collaborator_id": 4, "template_task_id": 6, "title": "Fazer primeiro commit de teste", "status": "completed" },
+    { "id": 21, "collaborator_id": 4, "template_task_id": 7, "title": "Participar da daily com o time", "status": "pending" },
+    { "id": 22, "collaborator_id": 5, "template_task_id": 1, "title": "Configurar ferramentas de teste (Selenium, Jest, etc)", "status": "completed" },
+    { "id": 23, "collaborator_id": 5, "template_task_id": 2, "title": "Conhecer o fluxo de testes da aplicação", "status": "pending" },
+    { "id": 24, "collaborator_id": 5, "template_task_id": 3, "title": "Entender pipeline de CI/CD", "status": "pending" },
+    { "id": 25, "collaborator_id": 5, "template_task_id": 4, "title": "Revisar casos de teste existentes", "status": "pending" },
+    { "id": 26, "collaborator_id": 5, "template_task_id": 5, "title": "Configurar ambiente de testes", "status": "pending" },
+    { "id": 27, "collaborator_id": 5, "template_task_id": 6, "title": "Executar suite de testes completa", "status": "pending" },
+    { "id": 28, "collaborator_id": 5, "template_task_id": 7, "title": "Participar da daily com o time", "status": "pending" }
+  ]
+}
