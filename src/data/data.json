@@ -52,15 +52,6 @@
       "type": "collaborator",
       "role": "dev",
       "avatar": ""
-    },
-    {
-      "id": 7,
-      "name": "Wolverine",
-      "email": "logan@xmen.com",
-      "password": "snikt123",
-      "type": "collaborator",
-      "role": "dev",
-      "avatar": ""
     }
   ],
   "templates": {
@@ -224,7 +215,7 @@
       "collaborator_id": 3,
       "template_task_id": 3,
       "title": "Revisar backlog atual",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "id": 11,

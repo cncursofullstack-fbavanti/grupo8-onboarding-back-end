@@ -47,3 +47,23 @@ Content-Type: application/json
   "password": "snikt123",
   "role": "dev"
 }
+
+### Listar todas as tarefas
+GET http://localhost:3000/api/tasks
+
+### Listar tarefas de um colaborador específico (Cyclops - id: 2)
+GET http://localhost:3000/api/tasks?collaborator_id=2
+
+### Buscar tarefa por ID
+GET http://localhost:3000/api/tasks/1
+
+### Atualizar status da tarefa
+PATCH http://localhost:3000/api/tasks/10
+Content-Type: application/json
+
+{
+  "status": "completed"
+}
+
+### Buscar template por papel
+GET http://localhost:3000/api/tasks/templates/dev

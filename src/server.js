@@ -3,6 +3,7 @@ import cors from 'cors';
 import { readData } from './utils/fileHandler.js';
 import authRoutes from './routes/auth.js';
 import usersRoutes from './routes/users.js';
+import tasksRoutes from './routes/tasks.js';
 
 const app = express();
 const PORT = 3000;
@@ -19,6 +20,7 @@ app.get('/', (req, res) => {
 // Rotas
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);
+app.use('/api/tasks', tasksRoutes);
 
 app.get('/test', async (req, res) => {
   try {
