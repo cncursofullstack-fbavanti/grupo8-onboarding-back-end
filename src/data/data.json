@@ -70,6 +70,15 @@
       "type": "collaborator",
       "role": "dev",
       "avatar": ""
+    },
+    {
+      "id": 9,
+      "name": "teste",
+      "email": "teste@xmen.com",
+      "password": "teste",
+      "type": "collaborator",
+      "role": "po",
+      "avatar": ""
     }
   ],
   "templates": {
@@ -233,7 +242,7 @@
       "collaborator_id": 3,
       "template_task_id": 3,
       "title": "Revisar backlog atual",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "id": 11,
@@ -247,14 +256,14 @@
       "collaborator_id": 3,
       "template_task_id": 5,
       "title": "Conhecer o processo de discovery",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "id": 13,
       "collaborator_id": 3,
       "template_task_id": 6,
       "title": "Participar de cerimônias ágeis (planning, review, retro)",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "id": 14,
@@ -457,6 +466,55 @@
       "collaborator_id": 8,
       "template_task_id": 7,
       "title": "Participar da daily com o time",
+      "status": "pending"
+    },
+    {
+      "id": 43,
+      "collaborator_id": 9,
+      "template_task_id": 1,
+      "title": "Conhecer roadmap do produto",
+      "status": "pending"
+    },
+    {
+      "id": 44,
+      "collaborator_id": 9,
+      "template_task_id": 2,
+      "title": "Alinhar expectativas com stakeholders",
+      "status": "pending"
+    },
+    {
+      "id": 45,
+      "collaborator_id": 9,
+      "template_task_id": 3,
+      "title": "Revisar backlog atual",
+      "status": "pending"
+    },
+    {
+      "id": 46,
+      "collaborator_id": 9,
+      "template_task_id": 4,
+      "title": "Entender métricas e KPIs do produto",
+      "status": "pending"
+    },
+    {
+      "id": 47,
+      "collaborator_id": 9,
+      "template_task_id": 5,
+      "title": "Conhecer o processo de discovery",
+      "status": "pending"
+    },
+    {
+      "id": 48,
+      "collaborator_id": 9,
+      "template_task_id": 6,
+      "title": "Participar de cerimônias ágeis (planning, review, retro)",
+      "status": "pending"
+    },
+    {
+      "id": 49,
+      "collaborator_id": 9,
+      "template_task_id": 7,
+      "title": "Fazer shadowing com PO anterior ou líder",
       "status": "pending"
     }
   ]
